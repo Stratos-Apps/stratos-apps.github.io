@@ -1,5 +1,9 @@
-:root{ --grad: linear-gradient(120deg, #CC310E, #872A16, #C21111); }
-body{ background: var(--grad); min-height: 100vh; margin: 0; }
+:root {
+    --grad: linear-gradient(120deg, #CC310E, #872A16, #C21111);
+}
+body { 
+    background: var(--grad); min-height: 100vh; margin: 0; 
+}
 
 img {
     display: block;
