@@ -1,24 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#141e27">
     <title>Stratos Apps</title>
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <img src="logo.png" alt="Logo">
+    <header class="site-header">
+        <a class="brand" href="#home" aria-label="Stratos Apps home">
+            <img src="logo.png" alt="">
+            <span>Stratos Apps</span>
+        </a>
 
-    <div class="container">
-        <h1>Stratos Apps</h1>
-        <p>Stratos Apps is a collection of Open Source computer apps and tools coded in Python, empowering you with the tools you need to get the job done.</p>
+        <nav class="site-nav" aria-label="Main navigation">
+            <a href="about.html">About</a>
+            <a href="https://github.com/stratos-apps"
+               target="_blank"
+               rel="noopener noreferrer">GitHub</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
 
-        <p>Find the apps on <a href="https://github.com/stratos-apps">GitHub</a></p>
+    <main class="container" id="home">
+        <section id="apps">
+            <p class="eyebrow">Open-source software</p>
+            <h1>Stratos Apps</h1>
+            <p class="intro">
+               Open Source computer apps built for your everyday needs. Support for Linux, MacOS, and Windows  ensures you can get the job done on all platforms
+            </p>
+            <a class="button"
+               href="https://github.com/stratos-apps"
+               target="_blank"
+               rel="noopener noreferrer">
+                Explore the projects on GitHub
+            </a>
+        </section>
 
-        <h2>CONTACT THE PROJECT</h2>
-        <p>If you wish to contact the project, please send an email to: <a href="mailto:stratosapps@duck.com">stratosapps@duck.com</a></p>
-    </div>
+        <section class="contact" id="contact">
+            <h2>Contact the project</h2>
+            <p>
+                To get in touch, email
+                <a href="mailto:stratosapps@duck.com">stratosapps@duck.com</a>.
+            </p>
+        </section>
+    </main>
 </body>
 </html>
