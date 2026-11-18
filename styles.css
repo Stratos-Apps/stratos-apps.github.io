@@ -294,3 +294,13 @@ a:focus-visible {
     color: var(--accent);
     font-size: 1.2rem;
 }
+
+.banner {
+    width: 100%;
+    padding: 12px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    box-sizing: border-box;
+}
